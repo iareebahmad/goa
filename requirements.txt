@@ -1,0 +1,18 @@
+# Backend
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary  # PostgreSQL adapter
+pydantic
+
+# Frontend
+streamlit
+streamlit-authenticator  # Optional: login UI for Streamlit
+
+# Shared
+python-dotenv
+requests
+
+# Dev & Tools
+pytest
+httpx  # For testing APIs
